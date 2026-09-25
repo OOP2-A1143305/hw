@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class U2_2 extends JFrame {
+public class U1_2 extends JFrame {
 
     private JComboBox<String> typeComboBox;
     private JTextField inputTextField;
@@ -16,7 +16,7 @@ public class U2_2 extends JFrame {
     private String[] weightUnits = {"公斤", "公克", "磅", "盎司"};
     private String[] tempUnits = {"攝氏", "華氏", "克氏"};
 
-    public U2_2() {
+    public U1_2() {
         setTitle("單位換算器");
         setSize(480, 280);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -164,7 +164,7 @@ public class U2_2 extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new U2_2().setVisible(true);
+                new U1_2().setVisible(true);
             }
         });
     }
